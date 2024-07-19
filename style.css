@@ -52,3 +52,128 @@ p {
 }
 
 /* Add your custom styles for btn-1, btn-2, and btn-3 */
+.btn-1:hover{
+    transform: translateY(7px);
+    transform: translateX(-3px);
+    background-color: rgb(234, 178, 132);
+}
+
+.btn-2{
+
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    animation: bounceIn 2s ease-in-out;  
+
+
+    background-color: rgb(132, 222, 234);
+
+}
+
+.btn-3{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    animation: spinlIn 3s ease-in-out;
+}
+
+
+@keyframes bounceIn {
+    0% {
+      transform: translateX(100vw);
+    }
+    60% {
+      transform: translateX(-30px);
+    }
+    80% {
+      transform: translateX(10px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes spinlIn {
+    0% {
+        transform: translateX(100vw) rotate(0deg);
+      }
+      5% {
+        transform: translateX(95vw) rotate(90deg);
+      }
+      10% {
+        transform: translateX(90vw) rotate(180deg);
+      }
+      15% {
+        transform: translateX(85vw) rotate(270deg);
+      }
+      20% {
+        transform: translateX(80vw) rotate(360deg);
+      }
+      25% {
+        transform: translateX(75vw) rotate(450deg);
+      }
+      30% {
+        transform: translateX(70vw) rotate(540deg);
+      }
+      35% {
+        transform: translateX(65vw) rotate(630deg);
+      }
+      40% {
+        transform: translateX(60vw) rotate(720deg);
+      }
+      45% {
+        transform: translateX(55vw) rotate(810deg);
+      }
+      50% {
+        transform: translateX(50vw) rotate(900deg);
+      }
+      55% {
+        transform: translateX(45vw) rotate(990deg);
+      }
+      60% {
+        transform: translateX(40vw) rotate(1080deg);
+      }
+      65% {
+        transform: translateX(35vw) rotate(1170deg);
+      }
+      70% {
+        transform: translateX(30vw) rotate(1260deg);
+      }
+      75% {
+        transform: translateX(25vw) rotate(1350deg);
+      }
+      80% {
+        transform: translateX(20vw) rotate(1440deg);
+      }
+      85% {
+        transform: translateX(15vw) rotate(1530deg);
+      }
+      90% {
+        transform: translateX(10vw) rotate(1620deg);
+      }
+      95% {
+        transform: translateX(5vw) rotate(1710deg);
+      }
+      100% {
+        transform: translateX(0) rotate(1800deg);
+      }
+      105% {
+        transform: translateX(-5px) rotate(1800deg);
+      }
+      110% {
+        transform: translateX(3px) rotate(1800deg);
+      }
+      115% {
+        transform: translateX(0) rotate(1800deg);
+      }
+  }

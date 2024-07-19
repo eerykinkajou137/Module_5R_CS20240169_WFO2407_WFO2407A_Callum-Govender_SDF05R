@@ -1,0 +1,6 @@
+for the first button i did a simple hover animation
+
+the second was a slide in and bounce 
+
+the thrid a spinning transitions
+-This did pose some issue, when i realized i needed to all more rotaions per turn within the keyframe i had chatgpt generate and fill in from 5% 
