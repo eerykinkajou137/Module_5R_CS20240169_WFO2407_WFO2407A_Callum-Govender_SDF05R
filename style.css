@@ -70,21 +70,33 @@ p {
     position: relative;
     animation: bounceIn 2s ease-in-out;  
 
-
+    transition: background-color 0.5s ease-in-out;
     background-color: rgb(132, 222, 234);
 
+}
+
+.btn-2:hover{
+    background-color: white;
+    color: rgb(132, 222, 234);
 }
 
 .btn-3{
     padding: 10px 20px;
     font-size: 16px;
     color: white;
-    background-color: #007bff;
+    background-color: #6ce48e;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     position: relative;
     animation: spinlIn 3s ease-in-out;
+}
+.btn-3:hover{
+    box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
 }
 
 
@@ -105,73 +117,73 @@ p {
 
   @keyframes spinlIn {
     0% {
-        transform: translateX(100vw) rotate(0deg);
+        transform: translateX(-100vw) rotate(0deg);
       }
       5% {
-        transform: translateX(95vw) rotate(90deg);
+        transform: translateX(-95vw) rotate(90deg);
       }
       10% {
-        transform: translateX(90vw) rotate(180deg);
+        transform: translateX(-90vw) rotate(180deg);
       }
       15% {
-        transform: translateX(85vw) rotate(270deg);
+        transform: translateX(-85vw) rotate(270deg);
       }
       20% {
-        transform: translateX(80vw) rotate(360deg);
+        transform: translateX(-80vw) rotate(360deg);
       }
       25% {
-        transform: translateX(75vw) rotate(450deg);
+        transform: translateX(-75vw) rotate(450deg);
       }
       30% {
-        transform: translateX(70vw) rotate(540deg);
+        transform: translateX(-70vw) rotate(540deg);
       }
       35% {
-        transform: translateX(65vw) rotate(630deg);
+        transform: translateX(-65vw) rotate(630deg);
       }
       40% {
-        transform: translateX(60vw) rotate(720deg);
+        transform: translateX(-60vw) rotate(720deg);
       }
       45% {
-        transform: translateX(55vw) rotate(810deg);
+        transform: translateX(-55vw) rotate(810deg);
       }
       50% {
-        transform: translateX(50vw) rotate(900deg);
+        transform: translateX(-50vw) rotate(900deg);
       }
       55% {
-        transform: translateX(45vw) rotate(990deg);
+        transform: translateX(-45vw) rotate(990deg);
       }
       60% {
-        transform: translateX(40vw) rotate(1080deg);
+        transform: translateX(-40vw) rotate(1080deg);
       }
       65% {
-        transform: translateX(35vw) rotate(1170deg);
+        transform: translateX(-35vw) rotate(1170deg);
       }
       70% {
-        transform: translateX(30vw) rotate(1260deg);
+        transform: translateX(-30vw) rotate(1260deg);
       }
       75% {
-        transform: translateX(25vw) rotate(1350deg);
+        transform: translateX(-25vw) rotate(1350deg);
       }
       80% {
-        transform: translateX(20vw) rotate(1440deg);
+        transform: translateX(-20vw) rotate(1440deg);
       }
       85% {
-        transform: translateX(15vw) rotate(1530deg);
+        transform: translateX(-15vw) rotate(1530deg);
       }
       90% {
-        transform: translateX(10vw) rotate(1620deg);
+        transform: translateX(-10vw) rotate(1620deg);
       }
       95% {
-        transform: translateX(5vw) rotate(1710deg);
+        transform: translateX(-5vw) rotate(1710deg);
       }
       100% {
         transform: translateX(0) rotate(1800deg);
       }
       105% {
-        transform: translateX(-5px) rotate(1800deg);
+        transform: translateX(5px) rotate(1800deg);
       }
       110% {
-        transform: translateX(3px) rotate(1800deg);
+        transform: translateX(-3px) rotate(1800deg);
       }
       115% {
         transform: translateX(0) rotate(1800deg);
